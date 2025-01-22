@@ -1,4 +1,4 @@
-### snvmut: an R package for SNV extraction
+## snvmut: an R package for SNV extraction
 
 ### Package introduction
 
