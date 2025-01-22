@@ -14,7 +14,7 @@ This function returns a vector of SNVs and requires three parameters:
 
 -   the reference genome as a a BSgenome object
 
--   the "context_lenght" peramter, which is a numerical value that corresponds to the final window of nucleotides (mutation included) that will be stored inside the vector. The mutation is in the format [REF\>ALT] and in the window are included also the upstream and downstream nucleotides as defined by the "context_lenght" parameter.
+-   the "context_lenght" parameter, which is a numerical value that corresponds to the final window of nucleotides (mutation included) that will be stored inside the vector. The mutation is in the format [REF\>ALT] and in the window are included also the upstream and downstream nucleotides as defined by the "context_lenght" parameter.
 
 The function is optimized to take into account and solve the redundancy caused by the fact that, for example, C[G\>A]A is the same as "T[C\>T]G" on the reverse strand. This is solved by having all mutations report C or T as the REF base.
 
