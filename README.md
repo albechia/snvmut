@@ -1,23 +1,4 @@
----
-title: "snvmut: an R package for SNV extraction"
-author: Chiara Albertini
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{my-vignette}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-```{r setup}
-library(snvmut)
-```
+### snvmut: an R package for SNV extraction
 
 ### Package introduction
 
